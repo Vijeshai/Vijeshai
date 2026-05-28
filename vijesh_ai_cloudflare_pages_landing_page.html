@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vijesh AI — Autonomous AI Workforce</title>
+  <meta name="description" content="AI-native app development and autonomous operations powered by intelligent AI systems." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #030712;
+      overflow-x: hidden;
+      font-family: Inter, sans-serif;
+    }
+
+    .glow {
+      box-shadow: 0 0 40px rgba(139, 92, 246, 0.25);
+    }
+
+    .grid-bg {
+      background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+  </style>
+</head>
+<body class="text-white grid-bg">
+
+  <!-- NAVBAR -->
+  <header class="fixed top-0 w-full z-50 backdrop-blur-xl bg-black/40 border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div>
+        <h1 class="text-2xl font-bold bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">
+          VIJESH AI
+        </h1>
+      </div>
+
+      <nav class="hidden md:flex gap-8 text-sm text-gray-300">
+        <a href="#services" class="hover:text-white transition">Services</a>
+        <a href="#workflow" class="hover:text-white transition">Workflow</a>
+        <a href="#technology" class="hover:text-white transition">Technology</a>
+        <a href="#contact" class="hover:text-white transition">Contact</a>
+      </nav>
+
+      <a href="#contact" class="bg-violet-600 hover:bg-violet-500 px-5 py-2 rounded-xl text-sm font-semibold transition">
+        Start Project
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative min-h-screen flex items-center justify-center px-6 overflow-hidden pt-28">
+
+    <div class="absolute inset-0 bg-gradient-to-br from-violet-900/30 via-transparent to-cyan-900/20"></div>
+
+    <div class="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-2 gap-20 items-center">
+
+      <div>
+        <div class="inline-flex items-center gap-2 border border-violet-500/30 bg-violet-500/10 px-4 py-2 rounded-full text-sm text-violet-300 mb-8">
+          <span class="w-2 h-2 rounded-full bg-violet-400 animate-pulse"></span>
+          AI-Native Company
+        </div>
+
+        <h2 class="text-5xl md:text-7xl font-black leading-tight mb-8">
+          Your
+          <span class="bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">
+            Autonomous
+          </span>
+          AI Workforce
+        </h2>
+
+        <p class="text-xl text-gray-300 leading-relaxed mb-10 max-w-2xl">
+          We build AI-powered apps, automate operations, and create intelligent systems that run businesses end-to-end with minimal manual work.
+        </p>
+
+        <div class="flex flex-wrap gap-4 mb-12">
+          <a href="#contact" class="bg-violet-600 hover:bg-violet-500 px-8 py-4 rounded-2xl font-semibold transition glow">
+            Build My AI App
+          </a>
+
+          <a href="#services" class="border border-white/20 hover:border-white/40 px-8 py-4 rounded-2xl font-semibold transition">
+            Explore Services
+          </a>
+        </div>
+
+        <div class="grid grid-cols-3 gap-6 text-center">
+          <div class="border border-white/10 bg-white/5 rounded-2xl p-5">
+            <div class="text-3xl font-bold text-violet-400">24/7</div>
+            <div class="text-gray-400 text-sm mt-2">AI Operations</div>
+          </div>
+
+          <div class="border border-white/10 bg-white/5 rounded-2xl p-5">
+            <div class="text-3xl font-bold text-cyan-400">100%</div>
+            <div class="text-gray-400 text-sm mt-2">Automation Focus</div>
+          </div>
+
+          <div class="border border-white/10 bg-white/5 rounded-2xl p-5">
+            <div class="text-3xl font-bold text-violet-400">Fast</div>
+            <div class="text-gray-400 text-sm mt-2">Deployment</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="absolute inset-0 bg-violet-500/20 blur-3xl rounded-full"></div>
+
+        <div class="relative border border-white/10 bg-white/5 rounded-3xl p-8 backdrop-blur-xl glow">
+
+          <div class="grid grid-cols-2 gap-5">
+
+            <div class="bg-gradient-to-br from-violet-600/20 to-violet-900/20 border border-violet-500/20 rounded-2xl p-6">
+              <div class="text-violet-300 text-sm mb-3">Development AI</div>
+              <div class="text-2xl font-bold">Apps & APIs</div>
+            </div>
+
+            <div class="bg-gradient-to-br from-cyan-600/20 to-cyan-900/20 border border-cyan-500/20 rounded-2xl p-6">
+              <div class="text-cyan-300 text-sm mb-3">Marketing AI</div>
+              <div class="text-2xl font-bold">Growth Engine</div>
+            </div>
+
+            <div class="bg-gradient-to-br from-pink-600/20 to-pink-900/20 border border-pink-500/20 rounded-2xl p-6">
+              <div class="text-pink-300 text-sm mb-3">CRM AI</div>
+              <div class="text-2xl font-bold">Customer Ops</div>
+            </div>
+
+            <div class="bg-gradient-to-br from-emerald-600/20 to-emerald-900/20 border border-emerald-500/20 rounded-2xl p-6">
+              <div class="text-emerald-300 text-sm mb-3">Analytics AI</div>
+              <div class="text-2xl font-bold">Data Insights</div>
+            </div>
+          </div>
+
+          <div class="mt-6 border border-white/10 rounded-2xl p-5 bg-black/30">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-gray-400 text-sm">System Automation</span>
+              <span class="text-emerald-400 text-sm">ACTIVE</span>
+            </div>
+
+            <div class="w-full bg-white/10 h-3 rounded-full overflow-hidden">
+              <div class="bg-gradient-to-r from-violet-500 to-cyan-500 h-full w-[92%]"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-28 px-6">
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-20">
+        <h3 class="text-5xl font-black mb-6">What We Build</h3>
+        <p class="text-gray-400 text-xl max-w-3xl mx-auto">
+          AI-powered products and autonomous operational systems designed for modern businesses.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <div class="border border-white/10 bg-white/5 rounded-3xl p-8 hover:border-violet-500/30 transition">
+          <div class="text-5xl mb-5">🤖</div>
+          <h4 class="text-2xl font-bold mb-4">AI Apps</h4>
+          <p class="text-gray-400 leading-relaxed">
+            Custom AI platforms, SaaS products, copilots, dashboards, and automation systems.
+          </p>
+        </div>
+
+        <div class="border border-white/10 bg-white/5 rounded-3xl p-8 hover:border-cyan-500/30 transition">
+          <div class="text-5xl mb-5">⚙️</div>
+          <h4 class="text-2xl font-bold mb-4">Automation</h4>
+          <p class="text-gray-400 leading-relaxed">
+            AI workflows that automate operations, support, onboarding, analytics, and reporting.
+          </p>
+        </div>
+
+        <div class="border border-white/10 bg-white/5 rounded-3xl p-8 hover:border-pink-500/30 transition">
+          <div class="text-5xl mb-5">📱</div>
+          <h4 class="text-2xl font-bold mb-4">Mobile Apps</h4>
+          <p class="text-gray-400 leading-relaxed">
+            Fast, scalable mobile applications for iOS, Android, and cross-platform systems.
+          </p>
+        </div>
+
+        <div class="border border-white/10 bg-white/5 rounded-3xl p-8 hover:border-emerald-500/30 transition">
+          <div class="text-5xl mb-5">🌐</div>
+          <h4 class="text-2xl font-bold mb-4">Web Platforms</h4>
+          <p class="text-gray-400 leading-relaxed">
+            High-performance web apps, landing pages, admin dashboards, and cloud-native systems.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKFLOW -->
+  <section id="workflow" class="py-28 px-6 bg-white/[0.03] border-y border-white/10">
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-20">
+        <h3 class="text-5xl font-black mb-6">Human Vision. AI Execution.</h3>
+        <p class="text-gray-400 text-xl max-w-3xl mx-auto">
+          We combine human strategy with autonomous AI systems for rapid execution.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-4 gap-8">
+
+        <div class="relative border border-white/10 rounded-3xl p-8 bg-black/30">
+          <div class="text-violet-400 text-6xl font-black mb-6">01</div>
+          <h4 class="text-2xl font-bold mb-4">Strategy</h4>
+          <p class="text-gray-400">We understand your business operations and workflows.</p>
+        </div>
+
+        <div class="relative border border-white/10 rounded-3xl p-8 bg-black/30">
+          <div class="text-cyan-400 text-6xl font-black mb-6">02</div>
+          <h4 class="text-2xl font-bold mb-4">Build</h4>
+          <p class="text-gray-400">We develop AI-native systems, apps, and infrastructure.</p>
+        </div>
+
+        <div class="relative border border-white/10 rounded-3xl p-8 bg-black/30">
+          <div class="text-pink-400 text-6xl font-black mb-6">03</div>
+          <h4 class="text-2xl font-bold mb-4">Automate</h4>
+          <p class="text-gray-400">AI agents begin handling operations and repetitive workflows.</p>
+        </div>
+
+        <div class="relative border border-white/10 rounded-3xl p-8 bg-black/30">
+          <div class="text-emerald-400 text-6xl font-black mb-6">04</div>
+          <h4 class="text-2xl font-bold mb-4">Scale</h4>
+          <p class="text-gray-400">Systems continuously optimize and scale your business.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TECHNOLOGY -->
+  <section id="technology" class="py-28 px-6">
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-20">
+        <h3 class="text-5xl font-black mb-6">Technology Stack</h3>
+        <p class="text-gray-400 text-xl max-w-3xl mx-auto">
+          Built using modern cloud-native technologies and AI infrastructure.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <div class="border border-white/10 bg-white/5 rounded-3xl p-8">
+          <h4 class="text-2xl font-bold mb-6 text-violet-400">Frontend</h4>
+          <ul class="space-y-3 text-gray-300">
+            <li>React</li>
+            <li>Next.js</li>
+            <li>Tailwind CSS</li>
+            <li>Flutter</li>
+          </ul>
+        </div>
+
+        <div class="border border-white/10 bg-white/5 rounded-3xl p-8">
+          <h4 class="text-2xl font-bold mb-6 text-cyan-400">Backend</h4>
+          <ul class="space-y-3 text-gray-300">
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>Serverless APIs</li>
+            <li>Cloud Functions</li>
+          </ul>
+        </div>
+
+        <div class="border border-white/10 bg-white/5 rounded-3xl p-8">
+          <h4 class="text-2xl font-bold mb-6 text-pink-400">AI Systems</h4>
+          <ul class="space-y-3 text-gray-300">
+            <li>AI Agents</li>
+            <li>Workflow Automation</li>
+            <li>LLM Integrations</li>
+            <li>Data Intelligence</li>
+          </ul>
+        </div>
+
+        <div class="border border-white/10 bg-white/5 rounded-3xl p-8">
+          <h4 class="text-2xl font-bold mb-6 text-emerald-400">Infrastructure</h4>
+          <ul class="space-y-3 text-gray-300">
+            <li>Cloudflare</li>
+            <li>Vercel</li>
+            <li>AWS</li>
+            <li>Firebase</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- APP DOWNLOADS -->
+  <section class="py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+
+      <div class="mb-12">
+        <h3 class="text-5xl font-black mb-6">Download Our Apps</h3>
+        <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+          Access our AI-powered applications on iOS and Android platforms.
+        </p>
+      </div>
+
+      <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+
+        <a href="https://play.google.com/store" target="_blank" class="group border border-white/10 hover:border-emerald-500/40 bg-white/5 hover:bg-white/10 transition rounded-3xl p-8 flex items-center gap-6 min-w-[320px]">
+          <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-emerald-500 to-green-700 flex items-center justify-center text-4xl shadow-2xl">
+            ▶
+          </div>
+
+          <div class="text-left">
+            <div class="text-gray-400 text-sm mb-1">GET IT ON</div>
+            <div class="text-3xl font-bold">Google Play</div>
+            <div class="text-emerald-400 mt-2 text-sm">Android Applications</div>
+          </div>
+        </a>
+
+        <a href="https://www.apple.com/app-store/" target="_blank" class="group border border-white/10 hover:border-cyan-500/40 bg-white/5 hover:bg-white/10 transition rounded-3xl p-8 flex items-center gap-6 min-w-[320px]">
+          <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-cyan-500 to-blue-700 flex items-center justify-center text-4xl shadow-2xl">
+            
+          </div>
+
+          <div class="text-left">
+            <div class="text-gray-400 text-sm mb-1">DOWNLOAD ON THE</div>
+            <div class="text-3xl font-bold">App Store</div>
+            <div class="text-cyan-400 mt-2 text-sm">iOS Applications</div>
+          </div>
+        </a>
+
+      </div>
+
+      <div class="mt-10 text-gray-500 text-sm">
+        Replace the placeholder links with your actual App Store and Google Play URLs.
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="contact" class="py-28 px-6">
+    <div class="max-w-5xl mx-auto text-center border border-white/10 bg-gradient-to-br from-violet-900/20 to-cyan-900/20 rounded-[40px] p-14 glow">
+
+      <div class="inline-flex items-center gap-2 border border-violet-500/30 bg-violet-500/10 px-4 py-2 rounded-full text-sm text-violet-300 mb-8">
+        Ready To Launch?
+      </div>
+
+      <h3 class="text-5xl md:text-6xl font-black mb-8 leading-tight">
+        Build Your AI Workforce
+      </h3>
+
+      <p class="text-xl text-gray-300 leading-relaxed mb-12 max-w-3xl mx-auto">
+        Launch AI-powered products and automate operations with intelligent systems designed for scale.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-5">
+        <a href="mailto:hello@vijeshai.com" class="bg-violet-600 hover:bg-violet-500 px-8 py-4 rounded-2xl font-semibold transition glow">
+          hello@vijeshai.com
+        </a>
+
+        <a href="#" class="border border-white/20 hover:border-white/40 px-8 py-4 rounded-2xl font-semibold transition">
+          Schedule Consultation
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10 py-10 px-6">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+
+      <div>
+        <h4 class="text-2xl font-bold bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">
+          VIJESH AI
+        </h4>
+        <p class="text-gray-500 mt-2">
+          Built with AI. Operated by AI.
+        </p>
+      </div>
+
+      <div class="text-gray-500 text-sm text-center md:text-right">
+        © 2026 Vijesh AI. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
